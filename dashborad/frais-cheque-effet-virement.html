@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Adminty - Premium Admin Template by Colorlib </title>
+    <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 10]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="#">
+    <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="#">
+    <!-- Favicon icon -->
+    <link rel="icon" href="..\files\assets\images\favicon.ico" type="image/x-icon">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="..\files\bower_components\bootstrap\css\bootstrap.min.css">
+    <!-- feather Awesome -->
+    <link rel="stylesheet" type="text/css" href="..\files\assets\icon\feather\css\feather.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="..\files\assets\css\style.css">
+    <link rel="stylesheet" type="text/css" href="..\files\assets\css\jquery.mCustomScrollbar.css">
+</head>
+
+<body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="feather icon-menu"></i>
+                        </a>
+                        <a href="index-1.htm">
+                            <img class="img-fluid" src="..\files\assets\images\logo.png" alt="Theme-Logo" width = "75%">
+                        </a>
+                        <a class="mobile-options">
+                            <i class="feather icon-more-horizontal"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-container container-fluid">
+                        <ul class="nav-left">
+                            <li class="header-search">
+                                <div class="main-search morphsearch-search">
+                                    <div class="input-group">
+                                        <span class="input-group-addon search-close"><i class="feather icon-x"></i></span>
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-addon search-btn"><i class="feather icon-search"></i></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#!" onclick="javascript:toggleFullScreen()">
+                                    <i class="feather icon-maximize full-screen"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="header-notification">
+                                <div class="dropdown-primary dropdown">
+                                    <div class="dropdown-toggle" data-toggle="dropdown">
+                                        <i class="feather icon-bell"></i>
+                                        <span class="badge bg-c-pink">5</span>
+                                    </div>
+                                    <ul class="show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                        <li>
+                                            <h6>Notifications</h6>
+                                            <label class="label label-danger">New</label>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="notification-user">Soeng Souy</h5>
+                                                    <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                    <span class="notification-time">30 minutes ago</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="notification-user">Joseph William</h5>
+                                                    <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                    <span class="notification-time">30 minutes ago</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="notification-user">Sara Soudein</h5>
+                                                    <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                    <span class="notification-time">30 minutes ago</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-notification">
+                                <div class="dropdown-primary dropdown">
+                                    <div class="displayChatbox dropdown-toggle" data-toggle="dropdown">
+                                        <i class="feather icon-message-square"></i>
+                                        <span class="badge bg-c-green">3</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="user-profile header-notification">
+                                <div class="dropdown-primary dropdown">
+                                    <div class="dropdown-toggle" data-toggle="dropdown">
+                                        <img src="..\files\assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                                        <span>Soeng Souy</span>
+                                        <i class="feather icon-chevron-down"></i>
+                                    </div>
+                                    <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                        <li>
+                                            <a href="#!">
+                                                <i class="feather icon-settings"></i> Settings
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="user-profile.htm">
+                                                <i class="feather icon-user"></i> Profile
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="email-inbox.htm">
+                                                <i class="feather icon-mail"></i> My Messages
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="auth-lock-screen.htm">
+                                                <i class="feather icon-lock"></i> Lock Screen
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="auth-normal-sign-in.htm">
+                                                <i class="feather icon-log-out"></i> Logout
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Sidebar chat start -->
+            <div id="sidebar" class="users p-chat-user showChat">
+                <div class="had-container">
+                    <div class="card card_main p-fixed users-main">
+                        <div class="user-box">
+                            <div class="chat-inner-header">
+                                <div class="back_chatBox">
+                                    <div class="right-icon-control">
+                                        <input type="text" class="form-control  search-text" placeholder="Search Friend" id="search-friends">
+                                        <div class="form-icon">
+                                            <i class="icofont icofont-search"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-friend-list">
+                                <div class="media userlist-box" data-id="1" data-status="online" data-username="Josephin Doe" data-toggle="tooltip" data-placement="left" title="Josephin Doe">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius img-radius" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image ">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Soeng Souy</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="2" data-status="online" data-username="Lary Doe" data-toggle="tooltip" data-placement="left" title="Lary Doe">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="..\files\assets\images\avatar-2.jpg" alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Lary Doe</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="3" data-status="online" data-username="Alice" data-toggle="tooltip" data-placement="left" title="Alice">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Alice</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="4" data-status="online" data-username="Alia" data-toggle="tooltip" data-placement="left" title="Alia">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Alia</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="5" data-status="online" data-username="Suzen" data-toggle="tooltip" data-placement="left" title="Suzen">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="..\files\assets\images\avatar-2.jpg" alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Suzen</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar inner chat start-->
+            <div class="showChat_inner">
+                <div class="media chat-inner-header">
+                    <a class="back_chatBox">
+                        <i class="feather icon-chevron-left"></i> Josephin Doe
+                    </a>
+                </div>
+                <div class="media chat-messages">
+                    <a class="media-left photo-table" href="#!">
+                        <img class="media-object img-radius img-radius m-t-5" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                    </a>
+                    <div class="media-body chat-menu-content">
+                        <div class="">
+                            <p class="chat-cont">I'm just looking around. Will you tell me something about yourself?</p>
+                            <p class="chat-time">8:20 a.m.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="media chat-messages">
+                    <div class="media-body chat-menu-reply">
+                        <div class="">
+                            <p class="chat-cont">I'm just looking around. Will you tell me something about yourself?</p>
+                            <p class="chat-time">8:20 a.m.</p>
+                        </div>
+                    </div>
+                    <div class="media-right photo-table">
+                        <a href="#!">
+                            <img class="media-object img-radius img-radius m-t-5" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                        </a>
+                    </div>
+                </div>
+                <div class="chat-reply-box p-b-20">
+                    <div class="right-icon-control">
+                        <input type="text" class="form-control search-text" placeholder="Share Your Thoughts">
+                        <div class="form-icon">
+                            <i class="feather icon-navigation"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar inner chat end-->
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper" >
+
+
+                    <nav class="pcoded-navbar" id="sidebar-container">
+
+                    </nav>
+
+                    
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+<div class="main-body">
+    <div class="page-wrapper">
+        <!-- Page-header start -->
+        <div class="page-header">
+            <div class="row align-items-end">
+                <div class="col-lg-8">
+                    <div class="page-header-title">
+                        <div class="d-inline">
+                            <h4>Configuration des Frais Bancaires</h4>
+                            <span>Paramétrage des frais liés aux opérations bancaires</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="page-header-breadcrumb">
+                        <ul class="breadcrumb-title">
+                            <li class="breadcrumb-item">
+                                <a href="index-1.htm"> <i class="feather icon-home"></i> </a>
+                            </li>
+                            <li class="breadcrumb-item"><a href="#!">Paramétrage Comptabilité</a></li>
+                            <li class="breadcrumb-item"><a href="#!">Frais Bancaires</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page-header end -->
+
+        <!-- Page-body start -->
+        <div class="page-body">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Frais Chèque, Effet et Virement</h5>
+                    <span>Configuration des différents frais liés aux opérations bancaires</span>
+                    
+                    <div class="demo-info">
+                        <i class="fa fa-info-circle"></i> Mode démo activé - Données fictives
+                    </div>
+                </div>
+                <div class="card-block">
+                    <!-- Filtres -->
+                    <div class="row mb-4">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Type d'opération</label>
+                                <select class="form-control" id="selectOperationType">
+                                    <option value="">Tous les types</option>
+                                    <option value="CHEQUE">Chèque</option>
+                                    <option value="EFFET">Effet</option>
+                                    <option value="VIREMENT">Virement</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Statut</label>
+                                <select class="form-control" id="selectStatus">
+                                    <option value="">Tous les statuts</option>
+                                    <option value="ACTIF">Actif</option>
+                                    <option value="INACTIF">Inactif</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tableau des frais -->
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5>Liste des frais configurés</h5>
+                        <div>
+                            <button type="button" class="btn btn-sm btn-primary mr-2" id="btnAddFee">
+                                <i class="fa fa-plus"></i> Ajouter
+                            </button>
+                            <button type="button" class="btn btn-sm btn-danger" id="btnDelete" disabled>
+                                <i class="fa fa-trash"></i> Supprimer
+                            </button>
+                            <button type="button" class="btn btn-sm btn-info ml-2" id="btnLoadDemo">
+                                <i class="fa fa-magic"></i> Charger démo
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover" id="feesTable">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th width="30"><input type="checkbox" id="selectAll"></th>
+                                    <th>TYPE OPÉRATION</th>
+                                    <th>LIBELLÉ</th>
+                                    <th>MONTANT (FCFA)</th>
+                                    <th>APPLICABLE</th>
+                                    <th>STATUT</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Les données seront chargées dynamiquement -->
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- Statistiques -->
+                    <div class="demo-stats mt-3">
+                        <div class="stat-item">
+                            <span class="stat-label">Frais configurés:</span>
+                            <span class="stat-value" id="totalFees">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Actifs:</span>
+                            <span class="stat-value" id="activeFees">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Total montants:</span>
+                            <span class="stat-value" id="totalAmount">0 FCFA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page-body end -->
+    </div>
+</div>
+
+<!-- Modal pour ajouter/modifier un frais -->
+<div class="modal fade" id="feeModal" tabindex="-1" role="dialog" aria-labelledby="feeModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="feeModalLabel">Nouveau Frais Bancaire</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="modalFeeForm">
+                    <div class="form-group">
+                        <label for="modalOperationType">Type d'opération *</label>
+                        <select class="form-control" id="modalOperationType" required>
+                            <option value="">Sélectionnez un type</option>
+                            <option value="CHEQUE">Chèque</option>
+                            <option value="EFFET">Effet</option>
+                            <option value="VIREMENT">Virement</option>
+                        </select>
+                        <small class="form-text text-muted">Sélectionnez le type d'opération concerné</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="modalLibelle">Libellé *</label>
+                        <input type="text" class="form-control" id="modalLibelle" required placeholder="Ex: Frais d'encaissement de chèque">
+                        <small class="form-text text-muted">Description claire du frais</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="modalAmount">Montant (FCFA) *</label>
+                        <input type="number" class="form-control" id="modalAmount" required min="0" step="100">
+                        <small class="form-text text-muted">Montant du frais en FCFA</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="modalApplicable">Applicable</label>
+                        <select class="form-control" id="modalApplicable">
+                            <option value="TOUS">Pour tous les clients</option>
+                            <option value="PARTICULIERS">Clients particuliers seulement</option>
+                            <option value="ENTREPRISES">Entreprises seulement</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="modalStatus">Statut *</label>
+                        <select class="form-control" id="modalStatus" required>
+                            <option value="ACTIF">Actif</option>
+                            <option value="INACTIF">Inactif</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" id="btnSave">Enregistrer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script avec données de démo -->
+<script>
+    // Données de démonstration
+    const demoData = [
+        { 
+            id: 1, 
+            operationType: "CHEQUE", 
+            libelle: "Frais d'encaissement de chèque", 
+            amount: 500, 
+            applicable: "TOUS", 
+            status: "ACTIF" 
+        },
+        { 
+            id: 2, 
+            operationType: "EFFET", 
+            libelle: "Commission d'acceptation d'effet", 
+            amount: 1000, 
+            applicable: "ENTREPRISES", 
+            status: "ACTIF" 
+        },
+        { 
+            id: 3, 
+            operationType: "VIREMENT", 
+            libelle: "Frais de virement interbancaire", 
+            amount: 750, 
+            applicable: "TOUS", 
+            status: "ACTIF" 
+        },
+        { 
+            id: 4, 
+            operationType: "CHEQUE", 
+            libelle: "Frais de rejet de chèque", 
+            amount: 2500, 
+            applicable: "TOUS", 
+            status: "INACTIF" 
+        }
+    ];
+
+    // Variables globales
+    let fees = [];
+    let currentFeeId = null;
+    let isEditMode = false;
+
+    // Initialisation
+    document.addEventListener('DOMContentLoaded', function() {
+        // Charger les données de démo
+        loadDemoData();
+        
+        // Bouton pour charger les données de démo
+        document.getElementById('btnLoadDemo').addEventListener('click', loadDemoData);
+        
+        // Ajouter un nouveau frais
+        document.getElementById('btnAddFee').addEventListener('click', function() {
+            currentFeeId = null;
+            isEditMode = false;
+            document.getElementById('modalFeeForm').reset();
+            document.getElementById('feeModalLabel').textContent = "Nouveau Frais Bancaire";
+            document.getElementById('modalStatus').value = "ACTIF";
+            $('#feeModal').modal('show');
+        });
+        
+        // Sauvegarder un frais
+        document.getElementById('btnSave').addEventListener('click', saveFee);
+        
+        // Supprimer des frais sélectionnés
+        document.getElementById('btnDelete').addEventListener('click', deleteSelectedFees);
+        
+        // Sélectionner/désélectionner toutes les lignes
+        document.getElementById('selectAll').addEventListener('change', function() {
+            const isChecked = this.checked;
+            document.querySelectorAll('.select-row').forEach(checkbox => {
+                checkbox.checked = isChecked;
+            });
+            updateDeleteButtonState();
+        });
+        
+        // Gérer la sélection dans le tableau
+        document.getElementById('feesTable').addEventListener('change', function(e) {
+            if (e.target.classList.contains('select-row')) {
+                updateDeleteButtonState();
+            }
+        });
+        
+        // Activer le double-clic pour l'édition
+        document.getElementById('feesTable').addEventListener('dblclick', function(e) {
+            const row = e.target.closest('tr[data-id]');
+            if (row) {
+                editFee(parseInt(row.dataset.id));
+            }
+        });
+        
+        // Filtres
+        document.getElementById('selectOperationType').addEventListener('change', updateFeesTable);
+        document.getElementById('selectStatus').addEventListener('change', updateFeesTable);
+    });
+
+    // Fonction pour charger les données de démo
+    function loadDemoData() {
+        fees = [...demoData];
+        updateFeesTable();
+        showDemoAlert("Données de démonstration chargées avec succès !");
+    }
+
+    // Mettre à jour le tableau des frais
+    function updateFeesTable() {
+        const operationType = document.getElementById('selectOperationType').value;
+        const status = document.getElementById('selectStatus').value;
+        
+        let filteredFees = fees;
+        
+        if (operationType) {
+            filteredFees = filteredFees.filter(f => f.operationType === operationType);
+        }
+        
+        if (status) {
+            filteredFees = filteredFees.filter(f => f.status === status);
+        }
+        
+        const tbody = document.querySelector('#feesTable tbody');
+        tbody.innerHTML = '';
+        
+        filteredFees.forEach(fee => {
+            const row = document.createElement('tr');
+            row.setAttribute('data-id', fee.id);
+            row.innerHTML = `
+                <td><input type="checkbox" class="select-row" data-id="${fee.id}"></td>
+                <td>${getOperationTypeLabel(fee.operationType)}</td>
+                <td>${fee.libelle}</td>
+                <td>${formatNumber(fee.amount)}</td>
+                <td>${getApplicableLabel(fee.applicable)}</td>
+                <td><span class="badge ${getStatusBadgeClass(fee.status)}">${fee.status}</span></td>
+            `;
+            tbody.appendChild(row);
+        });
+        
+        updateStats();
+        updateDeleteButtonState();
+    }
+
+    // Éditer un frais
+    function editFee(id) {
+        const fee = fees.find(f => f.id === id);
+        if (!fee) return;
+        
+        currentFeeId = id;
+        isEditMode = true;
+        
+        document.getElementById('modalOperationType').value = fee.operationType;
+        document.getElementById('modalLibelle').value = fee.libelle;
+        document.getElementById('modalAmount').value = fee.amount;
+        document.getElementById('modalApplicable').value = fee.applicable;
+        document.getElementById('modalStatus').value = fee.status;
+        
+        document.getElementById('feeModalLabel').textContent = "Modifier Frais Bancaire";
+        $('#feeModal').modal('show');
+    }
+
+    // Sauvegarder un frais
+    function saveFee() {
+        const operationType = document.getElementById('modalOperationType').value;
+        const libelle = document.getElementById('modalLibelle').value;
+        const amount = parseInt(document.getElementById('modalAmount').value);
+        const applicable = document.getElementById('modalApplicable').value;
+        const status = document.getElementById('modalStatus').value;
+        
+        if (!operationType || !libelle || isNaN(amount) || !status) {
+            showDemoAlert('Veuillez remplir tous les champs obligatoires', 'error');
+            return;
+        }
+        
+        if (isEditMode) {
+            // Modification
+            const index = fees.findIndex(f => f.id === currentFeeId);
+            if (index !== -1) {
+                fees[index] = {
+                    ...fees[index],
+                    operationType: operationType,
+                    libelle: libelle,
+                    amount: amount,
+                    applicable: applicable,
+                    status: status
+                };
+                showDemoAlert('Frais modifié avec succès !');
+            }
+        } else {
+            // Ajout
+            const newId = fees.length > 0 ? Math.max(...fees.map(f => f.id)) + 1 : 1;
+            fees.push({
+                id: newId,
+                operationType: operationType,
+                libelle: libelle,
+                amount: amount,
+                applicable: applicable,
+                status: status
+            });
+            showDemoAlert('Nouveau frais ajouté avec succès !');
+        }
+        
+        $('#feeModal').modal('hide');
+        updateFeesTable();
+    }
+
+    // Supprimer les frais sélectionnés
+    function deleteSelectedFees() {
+        const selectedIds = [];
+        document.querySelectorAll('.select-row:checked').forEach(checkbox => {
+            selectedIds.push(parseInt(checkbox.dataset.id));
+        });
+
+        if (selectedIds.length === 0) {
+            showDemoAlert('Veuillez sélectionner au moins un frais à supprimer', 'error');
+            return;
+        }
+
+        if (confirm(`Voulez-vous vraiment supprimer ${selectedIds.length} frais(s) ?`)) {
+            fees = fees.filter(f => !selectedIds.includes(f.id));
+            updateFeesTable();
+            showDemoAlert(`${selectedIds.length} frais(s) supprimé(s) avec succès !`);
+        }
+    }
+
+    // Mettre à jour les statistiques
+    function updateStats() {
+        document.getElementById('totalFees').textContent = fees.length;
+        
+        const activeCount = fees.filter(f => f.status === 'ACTIF').length;
+        document.getElementById('activeFees').textContent = activeCount;
+        
+        const totalAmount = fees.reduce((sum, fee) => sum + fee.amount, 0);
+        document.getElementById('totalAmount').textContent = `${formatNumber(totalAmount)} FCFA`;
+    }
+
+    // Mettre à jour l'état du bouton Supprimer
+    function updateDeleteButtonState() {
+        const anySelected = document.querySelectorAll('.select-row:checked').length > 0;
+        document.getElementById('btnDelete').disabled = !anySelected;
+    }
+
+    // Afficher une alerte démo
+    function showDemoAlert(message, type = 'success') {
+        const alertDiv = document.createElement('div');
+        alertDiv.className = `demo-alert demo-alert-${type}`;
+        alertDiv.innerHTML = `
+            <i class="fa ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i>
+            ${message}
+            <span class="close-alert">&times;</span>
+        `;
+        
+        document.body.appendChild(alertDiv);
+        
+        // Fermer l'alerte après 5s ou au clic
+        setTimeout(() => {
+            alertDiv.remove();
+        }, 5000);
+        
+        alertDiv.querySelector('.close-alert').addEventListener('click', () => {
+            alertDiv.remove();
+        });
+    }
+
+    // Helper functions
+    function getOperationTypeLabel(type) {
+        switch(type) {
+            case 'CHEQUE': return 'Chèque';
+            case 'EFFET': return 'Effet';
+            case 'VIREMENT': return 'Virement';
+            default: return type;
+        }
+    }
+    
+    function getApplicableLabel(applicable) {
+        switch(applicable) {
+            case 'TOUS': return 'Tous clients';
+            case 'PARTICULIERS': return 'Particuliers';
+            case 'ENTREPRISES': return 'Entreprises';
+            default: return applicable;
+        }
+    }
+    
+    function getStatusBadgeClass(status) {
+        switch(status) {
+            case 'ACTIF': return 'badge-success';
+            case 'INACTIF': return 'badge-secondary';
+            default: return 'badge-light';
+        }
+    }
+    
+    function formatNumber(num) {
+        return new Intl.NumberFormat('fr-FR').format(num);
+    }
+</script>
+
+<style>
+    .badge {
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-weight: normal;
+    }
+    
+    .badge-success {
+        background-color: #28a745;
+        color: white;
+    }
+    
+    .badge-secondary {
+        background-color: #6c757d;
+        color: white;
+    }
+    
+    .badge-light {
+        background-color: #f8f9fa;
+        color: #212529;
+    }
+    
+    #feesTable tbody tr {
+        cursor: pointer;
+    }
+    
+    #feesTable tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+    
+    .demo-info {
+        background-color: #e7f1ff;
+        color: #004085;
+        padding: 8px 12px;
+        border-radius: 4px;
+        margin-top: 10px;
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .demo-info i {
+        margin-right: 8px;
+    }
+    
+    .demo-stats {
+        display: flex;
+        gap: 20px;
+        background-color: #f8f9fa;
+        padding: 10px 15px;
+        border-radius: 4px;
+    }
+    
+    .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .stat-label {
+        font-weight: bold;
+    }
+    
+    .stat-value {
+        background-color: #e9ecef;
+        padding: 2px 8px;
+        border-radius: 10px;
+    }
+    
+    .demo-alert {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 15px 20px;
+        border-radius: 4px;
+        color: white;
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        animation: slideIn 0.3s ease-out;
+    }
+    
+    .demo-alert-success {
+        background-color: #28a745;
+    }
+    
+    .demo-alert-error {
+        background-color: #dc3545;
+    }
+    
+    .demo-alert i {
+        margin-right: 10px;
+        font-size: 1.2em;
+    }
+    
+    .close-alert {
+        margin-left: 15px;
+        cursor: pointer;
+        font-size: 1.2em;
+    }
+    
+    @keyframes slideIn {
+        from { transform: translateY(100px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+    }
+    
+    .form-text {
+        font-size: 0.85em;
+    }
+    
+    .table-responsive {
+        overflow-x: auto;
+    }
+    
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+    }
+    
+    .table th, .table td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
+    
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #dee2e6;
+    }
+    
+    .table tbody + tbody {
+        border-top: 2px solid #dee2e6;
+    }
+</style>
+
+<!-- Scripts -->
+
+ <script src="sidebar.js"></script>
+    <script data-cfasync="false" src="..\..\..\cdn-cgi\scripts\5c5dd728\cloudflare-static\email-decode.min.js"></script><script type="text/javascript" src="..\files\bower_components\jquery\js\jquery.min.js"></script>
+    <script type="text/javascript" src="..\files\bower_components\jquery-ui\js\jquery-ui.min.js"></script>
+    <script type="text/javascript" src="..\files\bower_components\popper.js\js\popper.min.js"></script>
+    <script type="text/javascript" src="..\files\bower_components\bootstrap\js\bootstrap.min.js"></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="..\files\bower_components\jquery-slimscroll\js\jquery.slimscroll.js"></script>
+    <!-- modernizr js -->
+    <script type="text/javascript" src="..\files\bower_components\modernizr\js\modernizr.js"></script>
+    <!-- Chart js -->
+    <script type="text/javascript" src="..\files\bower_components\chart.js\js\Chart.js"></script>
+    <!-- amchart js -->
+    <script src="..\files\assets\pages\widget\amchart\amcharts.js"></script>
+    <script src="..\files\assets\pages\widget\amchart\serial.js"></script>
+    <script src="..\files\assets\pages\widget\amchart\light.js"></script>
+    <script src="..\files\assets\js\jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="..\files\assets\js\SmoothScroll.js"></script>
+    <script src="..\files\assets\js\pcoded.min.js"></script>
+    <!-- custom js -->
+    <script src="..\files\assets\js\vartical-layout.min.js"></script>
+    <script type="text/javascript" src="..\files\assets\pages\dashboard\custom-dashboard.js"></script>
+    <script type="text/javascript" src="..\files\assets\js\script.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+</body>
+
+</html>

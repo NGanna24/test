@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Adminty - Premium Admin Template by Colorlib </title>
+    <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 10]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="#">
+    <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="#">
+    <!-- Favicon icon -->
+    <link rel="icon" href="..\files\assets\images\favicon.ico" type="image/x-icon">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="..\files\bower_components\bootstrap\css\bootstrap.min.css">
+    <!-- feather Awesome -->
+    <link rel="stylesheet" type="text/css" href="..\files\assets\icon\feather\css\feather.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="..\files\assets\css\style.css">
+    <link rel="stylesheet" type="text/css" href="..\files\assets\css\jquery.mCustomScrollbar.css">
+</head>
+
+<body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="feather icon-menu"></i>
+                        </a>
+                        <a href="index-1.htm">
+                            <img class="img-fluid" src="..\files\assets\images\logo.png" alt="Theme-Logo" width = "75%">
+                        </a>
+                        <a class="mobile-options">
+                            <i class="feather icon-more-horizontal"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-container container-fluid">
+                        <ul class="nav-left">
+                            <li class="header-search">
+                                <div class="main-search morphsearch-search">
+                                    <div class="input-group">
+                                        <span class="input-group-addon search-close"><i class="feather icon-x"></i></span>
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-addon search-btn"><i class="feather icon-search"></i></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#!" onclick="javascript:toggleFullScreen()">
+                                    <i class="feather icon-maximize full-screen"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="header-notification">
+                                <div class="dropdown-primary dropdown">
+                                    <div class="dropdown-toggle" data-toggle="dropdown">
+                                        <i class="feather icon-bell"></i>
+                                        <span class="badge bg-c-pink">5</span>
+                                    </div>
+                                    <ul class="show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                        <li>
+                                            <h6>Notifications</h6>
+                                            <label class="label label-danger">New</label>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="notification-user">Soeng Souy</h5>
+                                                    <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                    <span class="notification-time">30 minutes ago</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="notification-user">Joseph William</h5>
+                                                    <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                    <span class="notification-time">30 minutes ago</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="notification-user">Sara Soudein</h5>
+                                                    <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                    <span class="notification-time">30 minutes ago</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-notification">
+                                <div class="dropdown-primary dropdown">
+                                    <div class="displayChatbox dropdown-toggle" data-toggle="dropdown">
+                                        <i class="feather icon-message-square"></i>
+                                        <span class="badge bg-c-green">3</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="user-profile header-notification">
+                                <div class="dropdown-primary dropdown">
+                                    <div class="dropdown-toggle" data-toggle="dropdown">
+                                        <img src="..\files\assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                                        <span>Soeng Souy</span>
+                                        <i class="feather icon-chevron-down"></i>
+                                    </div>
+                                    <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                        <li>
+                                            <a href="#!">
+                                                <i class="feather icon-settings"></i> Settings
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="user-profile.htm">
+                                                <i class="feather icon-user"></i> Profile
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="email-inbox.htm">
+                                                <i class="feather icon-mail"></i> My Messages
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="auth-lock-screen.htm">
+                                                <i class="feather icon-lock"></i> Lock Screen
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="auth-normal-sign-in.htm">
+                                                <i class="feather icon-log-out"></i> Logout
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Sidebar chat start -->
+            <div id="sidebar" class="users p-chat-user showChat">
+                <div class="had-container">
+                    <div class="card card_main p-fixed users-main">
+                        <div class="user-box">
+                            <div class="chat-inner-header">
+                                <div class="back_chatBox">
+                                    <div class="right-icon-control">
+                                        <input type="text" class="form-control  search-text" placeholder="Search Friend" id="search-friends">
+                                        <div class="form-icon">
+                                            <i class="icofont icofont-search"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-friend-list">
+                                <div class="media userlist-box" data-id="1" data-status="online" data-username="Josephin Doe" data-toggle="tooltip" data-placement="left" title="Josephin Doe">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius img-radius" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image ">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Soeng Souy</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="2" data-status="online" data-username="Lary Doe" data-toggle="tooltip" data-placement="left" title="Lary Doe">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="..\files\assets\images\avatar-2.jpg" alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Lary Doe</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="3" data-status="online" data-username="Alice" data-toggle="tooltip" data-placement="left" title="Alice">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Alice</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="4" data-status="online" data-username="Alia" data-toggle="tooltip" data-placement="left" title="Alia">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Alia</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="5" data-status="online" data-username="Suzen" data-toggle="tooltip" data-placement="left" title="Suzen">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="..\files\assets\images\avatar-2.jpg" alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Suzen</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar inner chat start-->
+            <div class="showChat_inner">
+                <div class="media chat-inner-header">
+                    <a class="back_chatBox">
+                        <i class="feather icon-chevron-left"></i> Josephin Doe
+                    </a>
+                </div>
+                <div class="media chat-messages">
+                    <a class="media-left photo-table" href="#!">
+                        <img class="media-object img-radius img-radius m-t-5" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                    </a>
+                    <div class="media-body chat-menu-content">
+                        <div class="">
+                            <p class="chat-cont">I'm just looking around. Will you tell me something about yourself?</p>
+                            <p class="chat-time">8:20 a.m.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="media chat-messages">
+                    <div class="media-body chat-menu-reply">
+                        <div class="">
+                            <p class="chat-cont">I'm just looking around. Will you tell me something about yourself?</p>
+                            <p class="chat-time">8:20 a.m.</p>
+                        </div>
+                    </div>
+                    <div class="media-right photo-table">
+                        <a href="#!">
+                            <img class="media-object img-radius img-radius m-t-5" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                        </a>
+                    </div>
+                </div>
+                <div class="chat-reply-box p-b-20">
+                    <div class="right-icon-control">
+                        <input type="text" class="form-control search-text" placeholder="Share Your Thoughts">
+                        <div class="form-icon">
+                            <i class="feather icon-navigation"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar inner chat end-->
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper" >
+
+
+                    <nav class="pcoded-navbar" id="sidebar-container">
+
+                    </nav>
+
+                    
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+<div class="main-body">
+    <div class="page-wrapper">
+        <!-- Page-header start -->
+        <div class="page-header">
+            <div class="row align-items-end">
+                <div class="col-lg-8">
+                    <div class="page-header-title">
+                        <div class="d-inline">
+                            <h4>Configuration des Types de Garantie</h4>
+                            <span>Paramétrage des garanties acceptées pour les crédits</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="page-header-breadcrumb">
+                        <ul class="breadcrumb-title">
+                            <li class="breadcrumb-item">
+                                <a href="index-1.htm"> <i class="feather icon-home"></i> </a>
+                            </li>
+                            <li class="breadcrumb-item"><a href="#!">Paramétrage Crédit</a></li>
+                            <li class="breadcrumb-item"><a href="#!">Types de Garantie</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page-header end -->
+
+        <!-- Page-body start -->
+        <div class="page-body">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Gestion des Garanties</h5>
+                    <span>Paramétrez les types de garanties acceptées pour les demandes de crédit</span>
+                </div>
+                <div class="card-block">
+                    <!-- Actions principales -->
+                    <div class="mb-3">
+                        <button type="button" class="btn btn-primary" id="btnAddGarantie">
+                            <i class="fa fa-plus"></i> Ajouter
+                        </button>
+                        <button type="button" class="btn btn-danger" id="btnDeleteGarantie" disabled>
+                            <i class="fa fa-trash"></i> Supprimer
+                        </button>
+                    </div>
+
+                    <!-- Liste des garanties -->
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover" id="garantiesTable">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th width="30"><input type="checkbox" id="selectAll"></th>
+                                    <th>TYPE</th>
+                                    <th>LIBELLÉ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Données de démonstration -->
+                                <tr data-id="1" ondblclick="openEditModal(1)">
+                                    <td><input type="checkbox" class="select-row" data-id="1"></td>
+                                    <td>DELSAL</td>
+                                    <td>DELEGATION DE SALAIRE</td>
+                                </tr>
+                                <tr data-id="2" ondblclick="openEditModal(2)">
+                                    <td><input type="checkbox" class="select-row" data-id="2"></td>
+                                    <td>DOMLOY</td>
+                                    <td>DOMICILIATION DE LOYERS</td>
+                                </tr>
+                                <tr data-id="3" ondblclick="openEditModal(3)">
+                                    <td><input type="checkbox" class="select-row" data-id="3"></td>
+                                    <td>DELFAC</td>
+                                    <td>DELEGATION DE REGLEMENTS DE FACTURES</td>
+                                </tr>
+                                <tr data-id="4" ondblclick="openEditModal(4)">
+                                    <td><input type="checkbox" class="select-row" data-id="4"></td>
+                                    <td>HYP</td>
+                                    <td>HYPOTHÈQUES</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page-body end -->
+    </div>
+</div>
+
+<!-- Modal pour ajouter/modifier -->
+<div class="modal fade" id="garantieModal" tabindex="-1" role="dialog" aria-labelledby="garantieModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="garantieModalLabel">Nouvelle Garantie</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="garantieForm">
+                    <div class="form-group">
+                        <label for="garantieType">Type</label>
+                        <select class="form-control" id="garantieType" required>
+                            <option value="">Sélectionnez un type</option>
+                            <option value="DELSAL">DELEGATION DE SALAIRE</option>
+                            <option value="DOMLOY">DOMICILIATION DE LOYERS</option>
+                            <option value="DELFAC">DELEGATION DE FACTURES</option>
+                            <option value="HYP">HYPOTHÈQUES</option>
+                            <option value="GAGE">GAGE</option>
+                            <option value="ASUV">ASSURANCES VIE</option>
+                            <option value="ASUE">ASSURANCES ENTREPRISES</option>
+                            <option value="CAUE">CAUTION EXTERIEURE</option>
+                            <option value="CASO">CAUTION SOLIDAIRE</option>
+                            <option value="FONG">FONDS DE GARANTIES</option>
+                            <option value="GACR">GARANTIES SUR CREANCES</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="garantieLibelle">Libellé</label>
+                        <input type="text" class="form-control" id="garantieLibelle" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" id="btnSaveGarantie">Enregistrer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Variables globales
+    let currentGarantieId = null;
+    let isEditMode = false;
+    const garanties = [
+        { id: 1, type: "DELSAL", libelle: "DELEGATION DE SALAIRE" },
+        { id: 2, type: "DOMLOY", libelle: "DOMICILIATION DE LOYERS" },
+        { id: 3, type: "DELFAC", libelle: "DELEGATION DE REGLEMENTS DE FACTURES" },
+        { id: 4, type: "HYP", libelle: "HYPOTHÈQUES" }
+    ];
+
+    // Initialisation
+    document.addEventListener('DOMContentLoaded', function() {
+        // Gestion de la sélection des lignes
+        document.querySelectorAll('#garantiesTable tbody tr').forEach(row => {
+            row.addEventListener('click', function() {
+                // Désélectionner toutes les lignes
+                document.querySelectorAll('#garantiesTable tbody tr').forEach(r => {
+                    r.classList.remove('selected');
+                });
+                
+                // Sélectionner la ligne cliquée
+                this.classList.add('selected');
+                currentGarantieId = this.getAttribute('data-id');
+                
+                // Activer le bouton Supprimer
+                document.getElementById('btnDeleteGarantie').disabled = false;
+            });
+        });
+        
+        // Ajouter une nouvelle garantie
+        document.getElementById('btnAddGarantie').addEventListener('click', function() {
+            openEditModal(null);
+        });
+        
+        // Supprimer une garantie
+        document.getElementById('btnDeleteGarantie').addEventListener('click', deleteGarantie);
+        
+        // Enregistrer une garantie
+        document.getElementById('btnSaveGarantie').addEventListener('click', saveGarantie);
+        
+        // Sélectionner/désélectionner toutes les lignes
+        document.getElementById('selectAll').addEventListener('change', function() {
+            const isChecked = this.checked;
+            document.querySelectorAll('.select-row').forEach(checkbox => {
+                checkbox.checked = isChecked;
+            });
+        });
+    });
+
+    // Ouvrir le modal d'édition
+    function openEditModal(id) {
+        currentGarantieId = id;
+        isEditMode = id !== null;
+        
+        if (isEditMode) {
+            // Mode édition - Remplir avec les données existantes
+            const garantie = garanties.find(g => g.id == id);
+            if (garantie) {
+                document.getElementById('garantieType').value = garantie.type;
+                document.getElementById('garantieLibelle').value = garantie.libelle;
+                document.getElementById('garantieModalLabel').textContent = "Modifier Garantie";
+            }
+        } else {
+            // Mode ajout - Formulaire vide
+            document.getElementById('garantieForm').reset();
+            document.getElementById('garantieModalLabel').textContent = "Nouvelle Garantie";
+        }
+        
+        $('#garantieModal').modal('show');
+    }
+
+    // Sauvegarder une garantie
+    function saveGarantie() {
+        const type = document.getElementById('garantieType').value;
+        const libelle = document.getElementById('garantieLibelle').value;
+        
+        if (!type || !libelle) {
+            alert('Veuillez remplir tous les champs obligatoires');
+            return;
+        }
+        
+        if (isEditMode) {
+            // Modification
+            const index = garanties.findIndex(g => g.id == currentGarantieId);
+            if (index !== -1) {
+                garanties[index] = { ...garanties[index], type, libelle };
+                updateGarantieRow(currentGarantieId, type, libelle);
+            }
+        } else {
+            // Ajout
+            const newId = garanties.length > 0 ? Math.max(...garanties.map(g => g.id)) + 1 : 1;
+            garanties.push({ id: newId, type, libelle });
+            addGarantieRow(newId, type, libelle);
+        }
+        
+        $('#garantieModal').modal('hide');
+    }
+
+    // Mettre à jour une ligne dans le tableau
+    function updateGarantieRow(id, type, libelle) {
+        const row = document.querySelector(`#garantiesTable tbody tr[data-id="${id}"]`);
+        if (row) {
+            row.cells[1].textContent = type;
+            row.cells[2].textContent = libelle;
+        }
+    }
+
+    // Ajouter une nouvelle ligne dans le tableau
+    function addGarantieRow(id, type, libelle) {
+        const tbody = document.querySelector('#garantiesTable tbody');
+        const newRow = document.createElement('tr');
+        newRow.setAttribute('data-id', id);
+        newRow.setAttribute('ondblclick', `openEditModal(${id})`);
+        newRow.innerHTML = `
+            <td><input type="checkbox" class="select-row" data-id="${id}"></td>
+            <td>${type}</td>
+            <td>${libelle}</td>
+        `;
+        
+        // Ajouter l'événement click
+        newRow.addEventListener('click', function() {
+            document.querySelectorAll('#garantiesTable tbody tr').forEach(r => {
+                r.classList.remove('selected');
+            });
+            this.classList.add('selected');
+            currentGarantieId = this.getAttribute('data-id');
+            document.getElementById('btnDeleteGarantie').disabled = false;
+        });
+        
+        tbody.appendChild(newRow);
+    }
+
+    // Supprimer une garantie
+    function deleteGarantie() {
+        if (!currentGarantieId) return;
+        
+        if (confirm('Voulez-vous vraiment supprimer cette garantie ?')) {
+            // Supprimer de la liste
+            const index = garanties.findIndex(g => g.id == currentGarantieId);
+            if (index !== -1) {
+                garanties.splice(index, 1);
+            }
+            
+            // Supprimer la ligne du tableau
+            const row = document.querySelector(`#garantiesTable tbody tr[data-id="${currentGarantieId}"]`);
+            if (row) {
+                row.remove();
+            }
+            
+            currentGarantieId = null;
+            document.getElementById('btnDeleteGarantie').disabled = true;
+        }
+    }
+</script>
+
+<style>
+    #garantiesTable tbody tr {
+        cursor: pointer;
+    }
+    
+    #garantiesTable tbody tr.selected {
+        background-color: #e6f7ff;
+    }
+    
+    #garantiesTable tbody tr:hover {
+        background-color: #f5f5f5;
+    }
+    
+    .modal-header {
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    
+    .form-control {
+        width: 100%;
+    }
+</style>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    // Données de test
+    const communesData = {
+        "ABIDJAN": [
+            { id: 1, libelle: "ABOBO", description: "Commune d'Abobo" },
+            { id: 2, libelle: "ADJAMÉ", description: "Commune d'Adjamé" },
+            { id: 3, libelle: "ATTÉCOUBÉ", description: "Commune d'Attécoubé" },
+            { id: 4, libelle: "COCODY", description: "Commune de Cocody" },
+            { id: 5, libelle: "KOUMASSI", description: "Commune de Koumassi" },
+            { id: 6, libelle: "MARCORY", description: "Commune de Marcory" },
+            { id: 7, libelle: "PLATEAU", description: "Commune du Plateau" },
+            { id: 8, libelle: "PORT-BOUET", description: "Commune de Port-Bouët" },
+            { id: 9, libelle: "TREICHVILLE", description: "Commune de Treichville" },
+            { id: 10, libelle: "YOPOLIGON", description: "Commune de Yopougon" }
+        ],
+        "YAMOUSSOUKRO": [
+            { id: 11, libelle: "COMMUNE 1", description: "Description commune 1" },
+            { id: 12, libelle: "COMMUNE 2", description: "Description commune 2" }
+        ],
+        "BOUAKÉ": [
+            { id: 13, libelle: "COMMUNE A", description: "Description commune A" },
+            { id: 14, libelle: "COMMUNE B", description: "Description commune B" }
+        ]
+    };
+
+    // Variables pour la sélection
+    let selectedCommuneId = null;
+    let selectedCommuneIds = [];
+
+    // Chargement des communes en fonction de la ville sélectionnée
+    $('#selectVille').change(function() {
+        const ville = $(this).val();
+        loadCommunes(ville);
+        resetSelection();
+    });
+
+    function loadCommunes(ville) {
+        const tbody = $('#communesTable tbody');
+        tbody.empty();
+
+        if (ville && communesData[ville]) {
+            communesData[ville].forEach(commune => {
+                tbody.append(`
+                    <tr data-id="${commune.id}">
+                        <td><input type="checkbox" class="commune-checkbox" value="${commune.id}"></td>
+                        <td>${commune.libelle}</td>
+                        <td>${commune.description}</td>
+                    </tr>
+                `);
+            });
+        }
+    }
+
+    // Initialisation avec Abidjan par défaut
+    loadCommunes('ABIDJAN');
+
+    // Gestion de la sélection/désélection
+    $(document).on('change', '.commune-checkbox', function() {
+        const id = $(this).val();
+        if ($(this).is(':checked')) {
+            if (!selectedCommuneIds.includes(id)) {
+                selectedCommuneIds.push(id);
+            }
+        } else {
+            selectedCommuneIds = selectedCommuneIds.filter(item => item != id);
+        }
+    });
+
+    // Sélection/désélection globale
+    $('#selectAll').change(function() {
+        $('.commune-checkbox').prop('checked', $(this).is(':checked')).trigger('change');
+    });
+
+    // Double-clic pour modifier
+    $(document).on('dblclick', '#communesTable tbody tr', function() {
+        const id = $(this).data('id');
+        editCommune(id);
+    });
+
+    function editCommune(id) {
+        const ville = $('#selectVille').val();
+        const commune = communesData[ville].find(c => c.id == id);
+
+        if (commune) {
+            $('#modalTitle').text('Modifier la Commune');
+            $('#communeId').val(commune.id);
+            $('#libelleCommune').val(commune.libelle);
+            $('#descriptionCommune').val(commune.description);
+            $('#communeModal').modal('show');
+        }
+    }
+
+    // Gestion de l'ajout d'une nouvelle commune
+    $('#btnAddCommune').click(function() {
+        $('#modalTitle').text('Ajouter une Commune');
+        $('#modalCommuneForm')[0].reset();
+        $('#communeId').val('');
+    });
+
+    // Sauvegarde d'une commune (ajout ou modification)
+    $('#btnSaveCommune').click(function() {
+        const ville = $('#selectVille').val();
+        const id = $('#communeId').val();
+        const libelle = $('#libelleCommune').val();
+        const description = $('#descriptionCommune').val();
+
+        if (!libelle) {
+            alert('Le libellé de la commune est obligatoire');
+            return;
+        }
+
+        if (id) {
+            // Modification
+            const index = communesData[ville].findIndex(c => c.id == id);
+            if (index !== -1) {
+                communesData[ville][index].libelle = libelle;
+                communesData[ville][index].description = description;
+            }
+        } else {
+            // Ajout
+            const newId = communesData[ville].length > 0 ? 
+                Math.max(...communesData[ville].map(c => c.id)) + 1 : 1;
+            communesData[ville].push({
+                id: newId,
+                libelle: libelle,
+                description: description
+            });
+        }
+
+        loadCommunes(ville);
+        $('#communeModal').modal('hide');
+    });
+
+    // Suppression d'une ou plusieurs communes
+    $('#btnDeleteSelected').click(function() {
+        if (selectedCommuneIds.length === 0) {
+            alert('Veuillez sélectionner au moins une commune à supprimer');
+            return;
+        }
+
+        if (confirm('Voulez-vous vraiment supprimer les communes sélectionnées ?')) {
+            const ville = $('#selectVille').val();
+            communesData[ville] = communesData[ville].filter(c => !selectedCommuneIds.includes(c.id.toString()));
+            loadCommunes(ville);
+            resetSelection();
+        }
+    });
+
+    function resetSelection() {
+        selectedCommuneIds = [];
+        $('#selectAll').prop('checked', false);
+    }
+
+    // Bouton Imprimer
+    $('#btnPrint').click(function() {
+        window.print();
+    });
+});
+</script>
+
+<!-- Modal d'édition -->
+<div class="modal fade" id="editParamModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modifier Paramètre</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editParamForm">
+                    <input type="hidden" id="paramId">
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">Libellé</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="editLibelle" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">Montant Mini</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" id="editMontantMini">
+                        </div>
+                        <label class="col-sm-3 col-form-label">Montant Maxi</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" id="editMontantMaxi">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">Taux</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="editTaux">
+                        </div>
+                        <label class="col-sm-3 col-form-label">Montant Valeur</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="editMontantValeur">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">Numéro Compte</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="editNumeroCompte">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" id="saveParamBtn">Enregistrer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    // Gestion du double clic sur une ligne
+    $('.row-param').on('dblclick', function() {
+        const row = $(this);
+        $('#paramId').val(row.data('id'));
+        $('#editLibelle').val(row.find('td:eq(0)').text());
+        $('#editMontantMini').val(row.find('td:eq(1)').text());
+        $('#editMontantMaxi').val(row.find('td:eq(2)').text());
+        $('#editTaux').val(row.find('td:eq(3)').text());
+        $('#editMontantValeur').val(row.find('td:eq(4)').text());
+        $('#editNumeroCompte').val(row.find('td:eq(5)').text());
+        
+        $('#editParamModal').modal('show');
+    });
+
+    // Sauvegarde des modifications
+    $('#saveParamBtn').click(function() {
+        const id = $('#paramId').val();
+        const row = $(`.row-param[data-id="${id}"]`);
+        
+        row.find('td:eq(1)').text($('#editMontantMini').val());
+        row.find('td:eq(2)').text($('#editMontantMaxi').val());
+        row.find('td:eq(3)').text($('#editTaux').val());
+        row.find('td:eq(4)').text($('#editMontantValeur').val());
+        row.find('td:eq(5)').text($('#editNumeroCompte').val());
+        
+        $('#editParamModal').modal('hide');
+    });
+
+    // Bouton imprimer
+    $('#printBtn').click(function() {
+        window.print();
+    });
+});
+</script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <script src="sidebar.js"></script>
+    <script data-cfasync="false" src="..\..\..\cdn-cgi\scripts\5c5dd728\cloudflare-static\email-decode.min.js"></script><script type="text/javascript" src="..\files\bower_components\jquery\js\jquery.min.js"></script>
+    <script type="text/javascript" src="..\files\bower_components\jquery-ui\js\jquery-ui.min.js"></script>
+    <script type="text/javascript" src="..\files\bower_components\popper.js\js\popper.min.js"></script>
+    <script type="text/javascript" src="..\files\bower_components\bootstrap\js\bootstrap.min.js"></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="..\files\bower_components\jquery-slimscroll\js\jquery.slimscroll.js"></script>
+    <!-- modernizr js -->
+    <script type="text/javascript" src="..\files\bower_components\modernizr\js\modernizr.js"></script>
+    <!-- Chart js -->
+    <script type="text/javascript" src="..\files\bower_components\chart.js\js\Chart.js"></script>
+    <!-- amchart js -->
+    <script src="..\files\assets\pages\widget\amchart\amcharts.js"></script>
+    <script src="..\files\assets\pages\widget\amchart\serial.js"></script>
+    <script src="..\files\assets\pages\widget\amchart\light.js"></script>
+    <script src="..\files\assets\js\jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="..\files\assets\js\SmoothScroll.js"></script>
+    <script src="..\files\assets\js\pcoded.min.js"></script>
+    <!-- custom js -->
+    <script src="..\files\assets\js\vartical-layout.min.js"></script>
+    <script type="text/javascript" src="..\files\assets\pages\dashboard\custom-dashboard.js"></script>
+    <script type="text/javascript" src="..\files\assets\js\script.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+</body>
+
+</html>
